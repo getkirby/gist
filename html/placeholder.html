@@ -1,0 +1,8 @@
+<style>
+  [data-placeholder]:empty::after {
+    content: attr(data-placeholder);
+    color: rgba(0,0,0, .5);
+  }
+</style>
+
+<div contenteditable data-placeholder="Write something"></div>
