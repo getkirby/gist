@@ -1,0 +1,4 @@
+/* https://codepen.io/joshwcomeau/pen/mdVZKwr */
+.drop-shadow {
+  filter: drop-shadow(2px 4px 8px hsla(0deg, 0%, 0%, 0.5))
+}
