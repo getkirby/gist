@@ -9,7 +9,7 @@ Array.from(document.querySelectorAll("button")).forEach(button => {
 });
 
 /**
- * A for loop however does support array-like objects,
+ * For..of loops however do support array-like objects,
  * thus a NodeList can be iterated over as-is.
  */
 for (const button of document.querySelectorAll("button")) {
